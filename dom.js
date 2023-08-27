@@ -96,3 +96,13 @@ for(var i = 0; i<even.length ; i++){
     even[i].style.backgroundColor = '#f4f4f4';
 }
 */
+//----------------------------------------------------------
+//as requirement
+let header = document.getElementById('main-header');
+header.style.border = 'solid 3px #000';
+
+var title = document.querySelectorAll('.title');
+title[0].textContent = 'ADD ITEM';
+title[0].style.fontWeight = 'bold';
+title[0].style.backgroundColor = 'green';
+
