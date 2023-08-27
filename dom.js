@@ -107,8 +107,24 @@ for(var i = 0; i<even.length ; i++){
 //title[0].style.backgroundColor = 'green';
 //-----------------------------------------------------------
 //task-4
-let thirditem = document.getElementsByClassName('list-group-item');
-thirditem[2].style.backgroundColor = 'green';
+//let thirditem = document.getElementsByClassName('list-group-item');
+//thirditem[2].style.backgroundColor = 'green';
 
-let bolditem = document.getElementById('items');
-bolditem.style.fontWeight = 'bold';
+//let bolditem = document.getElementById('items');
+//bolditem.style.fontWeight = 'bold';
+//-------------------------------------------------------------
+//task-5
+let items = document.getElementsByClassName('list-group-item');
+for(let i=0; i<items.length;i++){
+    items[i].style.backgroundColor = '#f4f4f4';
+}
+
+let fiveitems = document.getElementsByClassName('new-list');
+fiveitems[0].style.backgroundColor = 'green';
+fiveitems[0].style.color = 'white';
+fiveitems[0].style.padding ='10px';
+
+let tagged = document.getElementsByTagName('li');
+for(let i=0; i<tagged.length;i++){
+    tagged[i].style.fontWeight='bold';
+}
