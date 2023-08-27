@@ -97,12 +97,20 @@ for(var i = 0; i<even.length ; i++){
 }
 */
 //----------------------------------------------------------
-//as requirement
-let header = document.getElementById('main-header');
-header.style.border = 'solid 3px #000';
+//task-3
+//let header = document.getElementById('main-header');
+//header.style.border = 'solid 3px #000';
 
-var title = document.querySelectorAll('.title');
-title[0].textContent = 'ADD ITEM';
-title[0].style.fontWeight = 'bold';
-title[0].style.backgroundColor = 'green';
+//var title = document.querySelectorAll('.title');
+//title[0].textContent = 'ADD ITEM';
+//title[0].style.fontWeight = 'bold';
+//title[0].style.backgroundColor = 'green';
+//-----------------------------------------------------------
+//task-4
+let thirditem = document.getElementsByClassName('list-group-item');
+thirditem[2].style.backgroundColor = 'green';
+
+let bolditem = document.getElementById('items');
+bolditem.style.fontWeight = 'bold';
+
 
