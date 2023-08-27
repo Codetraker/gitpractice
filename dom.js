@@ -96,6 +96,7 @@ for(var i = 0; i<even.length ; i++){
     even[i].style.backgroundColor = '#f4f4f4';
 }
 */
+<<<<<<< HEAD
 //-------------------------------------------------------------
 //task-3
 //let header = document.getElementById('main-header');
@@ -112,3 +113,15 @@ thirditem[2].style.backgroundColor = 'green';
 
 let bolditem = document.getElementById('items');
 bolditem.style.fontWeight = 'bold';
+=======
+//----------------------------------------------------------
+//as requirement
+let header = document.getElementById('main-header');
+header.style.border = 'solid 3px #000';
+
+var title = document.querySelectorAll('.title');
+title[0].textContent = 'ADD ITEM';
+title[0].style.fontWeight = 'bold';
+title[0].style.backgroundColor = 'green';
+
+>>>>>>> ca0e5e0f4665b283892bd85ae5917040c5dddd35
