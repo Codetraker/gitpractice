@@ -96,3 +96,72 @@ for(var i = 0; i<even.length ; i++){
     even[i].style.backgroundColor = '#f4f4f4';
 }
 */
+//-----------------------------------------------------------------------
+//TRAVERING THE DOM
+//let itemlist = document.querySelector('#items');
+
+//PARENT NODE
+//console.log(itemlist.parentNode);
+//itemlist.parentNode.style.backgroundColor = '#f4f4f4';
+//console.log(itemlist.parentNode.parentNode);
+
+//PARENT ELEMENT
+//console.log(itemlist.parentElement);
+//itemlist.parentElement.style.backgroundColor = '#f4f4f4';
+//console.log(itemlist.parentElement.parentElement.parentElement);
+
+//CHILD NODE
+//console.log(itemlist.childNodes);
+
+//CHILDREN
+//console.log(itemlist.children);
+//console.log(itemlist.children[1]);
+//itemlist.children[1].style.backgroundColor = 'yellow';
+
+//FIRST CHILD
+//console.log(itemlist.firstChild);
+
+//FIRST ELEMENT ELEMENT
+//console.log(itemlist.firstElementChild);
+//itemlist.firstElementChild.textContent = 'Hello 1';
+
+//LAST CHILD
+//console.log(itemlist.lastChild);
+
+//LAST ELEMENT CHILD
+//console.log(itemlist.lastElementChild);
+//itemlist.lastElementChild.textContent = 'Hello 4';
+
+//NEXT SIBLING
+//console.log(itemlist.nextSibling);
+
+//NEXT ELEMENT SIBLING
+//console.log(itemlist.nextElementSibling);
+
+//PREVIOUS SIBLING
+//console.log(itemlist.previousSibling);
+
+//PREVIOUS ELEMENT SIBLING
+//console.log(itemlist.previousElementSibling);
+//itemlist.previousElementSibling.style.color = 'green';
+
+//CRETE ELEMENTS
+//let newDiv = document.createElement('div');
+
+//add class
+//newDiv.className = 'hello';
+//add ID
+//newDiv.id = 'hello1';
+//add attribute
+//newDiv.setAttribute('title','HelloDiv');
+//create text node
+//let newDivText = document.createTextNode('Hello World');
+//add text to div
+//newDiv.appendChild(newDivText);
+
+//add to DOM
+//let container = document.querySelector('header .container');
+//let h1 = document.querySelector('header h1');
+//container.insertBefore(newDiv,h1);
+
+//console.log(newDiv);
