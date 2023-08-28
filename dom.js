@@ -200,22 +200,22 @@ for(let i = 0; i<odd.length ; i++){
 //itemlist.previousElementSibling.style.color = 'green';
 
 //CRETE ELEMENTS
-let newDiv = document.createElement('div');
+//let newDiv = document.createElement('div');
 
 //add class
-newDiv.className = 'hello';
+//newDiv.className = 'hello';
 //add ID
-newDiv.id = 'hello1';
+//newDiv.id = 'hello1';
 //add attribute
-newDiv.setAttribute('title','HelloDiv');
+//newDiv.setAttribute('title','HelloDiv');
 //create text node
-let newDivText = document.createTextNode('Hello World');
+//let newDivText = document.createTextNode('Hello World');
 //add text to div
-newDiv.appendChild(newDivText);
+//newDiv.appendChild(newDivText);
 
 //add to DOM
-let container = document.querySelector('header .container');
-let h1 = document.querySelector('header h1');
-container.insertBefore(newDiv,h1);
+//let container = document.querySelector('header .container');
+//let h1 = document.querySelector('header h1');
+//container.insertBefore(newDiv,h1);
 
-console.log(newDiv);
+//console.log(newDiv);
